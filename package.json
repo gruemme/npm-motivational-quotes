@@ -4,7 +4,7 @@
   "description": "Illustration how to use external libraries in NPM",
   "scripts": {
     "start": "rm -rf .parcel-cache && parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir dist"
+    "build": "parcel build src/index.html --public-url './' --dist-dir dist"
   },
   "keywords": [
     "npm",
