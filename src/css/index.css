@@ -1,0 +1,14 @@
+body {
+    background-color: #E0C9A6;
+}
+
+/* customize Bootstrap button colors */
+.btn-primary {
+    background-color: #ff7b00; /* New background color */
+    border-color: #ff7b00; /* New border color to match */
+}
+
+.btn-primary:hover {
+    background-color: #b35600; /* Darker shade for hover state */
+    border-color: #b35600;
+}
