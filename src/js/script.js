@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { getQuote } from 'inspirational-quotes';
+import { getRandom } from '@anilseervi/inspirational-quotes'
 
 document.getElementById('new-quote').addEventListener('click', function() {
-    const quoteText = getQuote();
-    document.getElementById('quote').textContent = quoteText.text + " - " + quoteText.author;
+    const quoteText = getRandom();
+    document.getElementById('quote').textContent = quoteText.quote + " - " + quoteText.author;
 });
